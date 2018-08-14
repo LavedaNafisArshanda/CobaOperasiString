@@ -17,19 +17,33 @@ public class CobaOperasiString {
 //    System.out.println("y adalah kososng : " + y.isEmpty());
     
 
-    System.out.println("isi x sama dengan y : "+ x.equals(y));
+//    System.out.println("isi x sama dengan y : "+ x.equals(y));
+//        
+      String z = "Operasi";
+//    System.out.println("isi variabel z : "+ z);
+//    System.out.println("isi x sama dengan z (Case Sensitive) : "
+//                + x.equals(z));
+//        
+      String r = "Operasi";
+//    System.out.println("isi variabel r : "+ r);
+//    System.out.println("isi x sama dengan r (Case Sensitive) : "
+//                + x.equals(r));
+//    System.out.println("isi x sama dengan r (Not Case Sensitive) : "
+//                + x.equalsIgnoreCase(r));
+
+
+System.out.println("perbandingan isi x dengan y : "+ x.compareTo(y));
+        System.out.println("perbandingan isi x dengan z (Case Sensitive):"
+                + x.compareTo(z));
+        System.out.println("perbandingan isi x dengan r (Case Sensitive):"
+                + x.compareTo(r));
+        System.out.println("perbandingan isi x dengan r (Not Case Sensitive):"
+                + x.compareToIgnoreCase(r));
         
-    String z = "Operasi";
-    System.out.println("isi variabel z : "+ z);
-    System.out.println("isi x sama dengan z (Case Sensitive) : "
-                + x.equals(z));
-        
-    String r = "Operasi";
-    System.out.println("isi variabel r : "+ r);
-    System.out.println("isi x sama dengan r (Case Sensitive) : "
-                + x.equals(r));
-    System.out.println("isi x sama dengan r (Not Case Sensitive) : "
-                + x.equalsIgnoreCase(r));
+        String s = "operasi";
+        System.out.println("isi variabel a : "+ s);
+        System.out.println("perbandingan isi r dengan a (Case Sensitive): "
+                + r.compareTo(s));
 
     }
 }
