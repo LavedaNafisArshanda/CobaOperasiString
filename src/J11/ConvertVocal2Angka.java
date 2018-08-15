@@ -34,6 +34,9 @@ public class ConvertVocal2Angka {
                 System.out.println(arrKal[i]+" => "+arrCon[i]);
             }
         }  
+         private static void tampilHasil(String convert) { 
+             System.out.println("Kalimat Alay Angka : " + convert);
+         } 
 
 
    
@@ -43,5 +46,6 @@ public class ConvertVocal2Angka {
     String kalimat = tampilInput();
     String convert = vocal2Angka(kalimat);
     tampilPerKata(kalimat, convert);
+    tampilHasil(convert);
  }
 }
