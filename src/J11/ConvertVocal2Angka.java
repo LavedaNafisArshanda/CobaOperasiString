@@ -8,3 +8,5 @@ public class ConvertVocal2Angka {
 public static void main(String[] args){
     String identitas = "Laveda Nafis Arshanda / X RPL 3 / 19";
     tampilJudul(identitas);
+ }
+}
