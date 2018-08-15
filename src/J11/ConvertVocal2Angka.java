@@ -5,8 +5,19 @@ public class ConvertVocal2Angka {
         System.out.println("Identitas : "+ identitas);
         
         System.out.println("\nConvert Kalimat Alay Angka (vokal ke Angka)\n");}
-public static void main(String[] args){
+    
+   private static String tampilInput() {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("Masukkan Kalimat : ");
+        String kalimat = scanner.nextLine();
+        System.out.println("Kalimat Asli : " + kalimat);
+        
+        return kalimat;}
+   
+    public static void main(String[] args){
     String identitas = "Laveda Nafis Arshanda / X RPL 3 / 19";
     tampilJudul(identitas);
+    String kalimat = tampilInput();
  }
 }
